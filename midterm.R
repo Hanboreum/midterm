@@ -21,7 +21,7 @@ rm(list = ls())
 install.packages('') #패키지 설치
 library()# 패키지 불러오기
 foobar <-data.frame(foo,bar)  # foobar 데이터 프레임 생성 
-foobar <-function() # 사용자 정의 함수 생성 
+foobar <-function() # 사용자 정의 함수 생성 , 작성된 코드는 한 번 실행해줘야한다 
 #아래 오류가 발생해 실행하지 못했습니다
 install.packages('USArrests')
 WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
