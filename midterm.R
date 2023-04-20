@@ -13,7 +13,7 @@ library(wordcloud)
 wordcloud(words = [단어: 지역명],freq = [빈도수:Assault])
 #10
 foobar <-function()
-  
+     
   #11
 rm(list = ls())
 
