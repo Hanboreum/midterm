@@ -1,5 +1,17 @@
 install.packages('USArrests')
 library(USArrests)
+#5
+foo <-USArrests[,c]
+#6
+bar <-USArrests[c,]
+#7
+foobar <-data.frame(foo,bar)
+#8
+install.packages('wordcloud')
+library(wordcloud)
+#9
+wordcloud(words = [단어: 지역명],freq = [빈도수:Assault])
+
 
 #아래 오류가 발생해 실행하지 못했습니다
 install.packages('USArrests')
